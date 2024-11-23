@@ -13,7 +13,7 @@
     let feminino = [];
     for ( let item of listaDeNomes){
         const pergunta = prompt(`${item} este nome é Masculino (M) ou Feminino (F)?`);
-        if ( item === "M"){
+        if ( pergunta === "M"){
             masculino.push(item);
         }
         else {
@@ -22,5 +22,6 @@
     }
     
     //SAÍDA
+    document.write(`Lista Masculina: ${masculino} <br> Lista Feminina: ${feminino}`);
 
 </script>
